@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex. 26</title>
+</head>
+<body>
+
+    <h1>Código dos produtos</h1>
+
+    <script>
+
+        alert("Codigo do leite = 101 " + " Codigo do arroz = 317 " + " Codigo do feijão = 275 ")
+
+        const leite = 5.50
+        var codigo = parseInt(prompt("Digite o código do produto: "))
+        var quantidade = parseInt(prompt("Digite a quantidade comprada: "))
+        var totalleite = quantidade * leite
+
+        const arroz = 19.50
+        var codigo = parseInt(prompt("Digite o código do produto: "))
+        var quantidade = parseInt(prompt("Digite a quantidade comprada: "))
+        var totalarroz = quantidade * arroz
+        
+        const feijao = 13.25
+        var codigo = parseInt(prompt("Digite o código do produto: "))
+        var quantidade = parseInt(prompt("Digite a quantidade comprada: "))
+        var totalfeijao = quantidade * feijao
+
+        var totalgeral = (totalleite + totalarroz + totalfeijao)
+        
+        if(codigo == 101 || codigo == 317 || codigo == 275 ){
+            document.write("O valor total da sua compra foi de: R$ " + totalgeral)
+        }else(document.write("Algum código se encontra inválido!"))
+
+    </script>
+    
+</body>
+</html>

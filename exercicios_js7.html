@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salario liquido</title>
+</head>
+<body>
+
+    <h1>Salario liquido</h1>
+
+    <script>
+
+        // let salario = parseFloat(prompt("Digite seu sálario base"))
+        // const vt = (salario * 0.06)
+    
+        
+        // if (salario < 1412){
+        //     var inss = (salario * 0.075)
+        //     var salarioLiquido = (salario - inss - vt)
+        //     document.write("Seu salario liquido é: " + salarioLiquido)
+        // }else if (salario >= 1412 && salario <= 2259){
+        //     var inss = (salario * 0.09)
+        //     var salarioLiquido = (salario - inss - vt)
+        //     document.write("Seu salario liquido é: " + salarioLiquido)
+        // }else if (salario >= 2259 && salario <= 2666){
+        //     var inss = (salario * 0.09)
+        //     var irrf = (salario * 0.075)
+        //     var salarioLiquido = (salario - inss - irrf - vt)
+        //     document.write("Seu salario liquido é: " + salarioLiquido)
+        // }else if (salario > 2666 && salario <= 2826){
+        //     var inss = (salario * 0.12)
+        //     var irrf = (salario * 0.075)
+        //     var salarioLiquido = (salario - inss - irrf - vt)
+        //     document.write("Seu salario liquido é: " + salarioLiquido)
+        // }else if (salario > 2826 && salario <= 3751){
+        //     var inss = (salario * 0.12)
+        //     var irrf = (salario * 0.15)
+        //     var salarioLiquido = (salario - inss - irrf - vt)
+        //     document.write("Seu salario liquido é: " + salarioLiquido)
+        // }else if (salario > 3751 && salario <= 4000){
+        //     var inss = (salario * 0.12)
+        //     var irrf = (salario * 0.225)
+        //     var salarioLiquido = (salario - inss - irrf - vt)
+        //     document.write("Seu salario liquido é: " + salarioLiquido)
+        // }else if (salario > 4000 && salario <= 4664){
+        //     var inss = (salario * 0.14)
+        //     var irrf = (salario * 0.225)
+        //     var salarioLiquido = (salario - inss - irrf - vt)
+        //     document.write("Seu salario liquido é: " + salarioLiquido)
+        // }else if (salario > 4664){
+        //     var inss = (salario * 0.14)
+        //     var irrf = (salario * 0.275)
+        //     var salarioLiquido = (salario - inss - irrf - vt)
+        //     document.write("Seu salario liquido é: " + salarioLiquido)
+        // }else{
+        //     var inss = (908)
+        //     irrf = (salario * 0.275)
+        //     var salarioLiquido = (salario - inss - irrf - vt)
+        //     document.write("Seu salario liquido é: " + salarioLiquido)
+        // }
+
+        let salario = parseFloat(prompt("Digite seu salario base: "))
+        let comissao = (salario * 0.05)
+        let salarioLiquido = (salario + comissao)
+        document.write("Seu salario liquido é: " + salarioLiquido )
+
+    </script>
+    
+</body>
+</html>

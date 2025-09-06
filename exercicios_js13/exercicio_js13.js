@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMC</title>
-</head>
-<body>
-
-    <h1>IMC</h1>
-
-    <script>
-
-        let num1 = parseInt(prompt("Digite o primeiro número: "))
+let num1 = parseInt(prompt("Digite o primeiro número: "))
         let num2 = parseInt(prompt("Digite o segundo número: "))
         let mult = num1 % num2 
         
@@ -21,8 +8,3 @@
             document.write("Não, o " + num1 + " não é um número multiplo de " + num2)
         }
         
-
-    </script>
-    
-</body>
-</html>

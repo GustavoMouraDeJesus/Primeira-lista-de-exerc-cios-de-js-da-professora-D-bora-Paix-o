@@ -1,0 +1,14 @@
+let inteiro = parseInt(prompt("Digite um número inteiro."))
+
+        let x1 = (inteiro * 1)
+        let x2 = (inteiro * 2)
+        let x3 = (inteiro * 3)
+        let x4 = (inteiro * 4)
+        let x5 = (inteiro * 5)
+        let x6 = (inteiro * 6)
+        let x7 = (inteiro * 7)
+        let x8 = (inteiro * 8)
+        let x9 = (inteiro * 9)
+        let x10 = (inteiro * 10)
+
+        document.write("A tabuada ficou da seguinte forma: " + "<br>" + x1  + "<br>" + x2  + "<br>" + x3  + "<br>" + x4  + "<br>" + x5  + "<br>" + x6  + "<br>" + x7  + "<br>" + x8  + "<br>" + x9  + "<br>" + x10 )

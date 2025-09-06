@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 3</title>
-</head>
-<body>
-    <script>
-        //Aqui começa o exercício número 8...
+//Aqui começa o exercício número 8...
 
         let x = parseInt(prompt("Digite o primeiro numero: "))
         let y = parseInt(prompt("Digite o segundo numero: "))
@@ -22,6 +13,3 @@
         document.write("Depois de trocar os valores de x=" + x + "y=" +y)
 
         //Aqui termina o exercício número 8...
-    </script>
-</body>
-</html>

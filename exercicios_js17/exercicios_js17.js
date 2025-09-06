@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Criança, adolescente, adulto ou idoso.</title>
-</head>
-<body>
-
-    <h1>criança, adolescente, adulto ou idoso.</h1>
-
-    <script>
-
-        let idade = parseInt(prompt("Digite sua idade: "))
+let idade = parseInt(prompt("Digite sua idade: "))
     
         if (idade > 0 && idade <= 3) {
             document.write("A pessoa que tem essa idade é um bebê")
@@ -24,8 +11,3 @@
         }else{
             document.write("Você é uma pessoa idosa")
         }
-
-    </script>
-    
-</body>
-</html>

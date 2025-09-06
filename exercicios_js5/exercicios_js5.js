@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 3</title>
-</head>
-<body>
-    <script>
-        //Aqui começa o exercício número 5...
+//Aqui começa o exercício número 5...
 
         var preco = parseFloat(prompt("Qual o preço do produto?"))
         var quantidade = parseFloat(prompt("Qual a quantidade?"))
@@ -23,6 +14,3 @@
         }
 
         //Aqui termina o exercício número 5...
-    </script>
-</body>
-</html>

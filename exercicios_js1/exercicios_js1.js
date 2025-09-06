@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios da professora Débora</title>
-</head>
-<body>
-    <script>
-        //Aqui começa o exercício número 1...
+//Aqui começa o exercício número 1...
         let numero1 = parseFloat(prompt("Entre com o primeiro número da soma: "))
         let numero2 = parseFloat(prompt("Entre com o segundo número da soma: "))
 
@@ -20,7 +11,3 @@
             document.write("O resultado da Divisão é: " + Divisão + "<br>")
             document.write("O resultado da Multiplicacao é: " + Multiplicacao + "<br>")
         //Aqui termina o exercício número 1...
-    </script>
-    
-</body>
-</html>

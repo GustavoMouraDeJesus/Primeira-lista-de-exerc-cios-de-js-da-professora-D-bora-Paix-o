@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt=br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 2</title>
-</head>
-<body>
-
-    <script>
-        //Aqui começa o exercício número 2...
+//Aqui começa o exercício número 2...
 
         let raio = parseFloat(prompt("Adicione um raio para este circulo"))
         let area = 3.14 * (raio * raio)
@@ -18,7 +8,3 @@
         document.write("A área do circulo com o raio " + raio + " é igual a " + perimetro + "<br>")
 
         //Aqui termina o exercício número 2...
-    </script>
-    
-</body>
-</html>

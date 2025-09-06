@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 3</title>
-</head>
-<body>
-    <script>
-        //Aqui começa o exercício número 4...
+//Aqui começa o exercício número 4...
 
         alert ("Digite as notas com valores entre 0 e 10")
 
@@ -25,6 +16,3 @@
         }
 
         //Aqui termina o exercício número 4...
-    </script>
-</body>
-</html>

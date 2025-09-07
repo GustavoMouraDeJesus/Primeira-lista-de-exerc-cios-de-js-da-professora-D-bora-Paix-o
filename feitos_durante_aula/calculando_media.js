@@ -1,0 +1,16 @@
+let nota1 = parseFloat(prompt("Entre com a primeira nota: "))
+        let nota2 = parseFloat(prompt("Entre com a segunda nota: "))
+        let nota3 = parseFloat(prompt("Entre com a terceira nota: "))
+        let nota4 = parseFloat(prompt("Entre com a quarta nota: "))
+
+        let media = (nota1 + nota2 + nota3 + nota4)/4
+
+        document.write("A média das notas é: " + media + "<br>")
+
+        if(media >= 6){
+            document.write("Você está aprovado! Parabéns")
+        }else if(media >= 5){
+            document.write("Você esta reprovado, aproveite bem essa nova chance!")
+        }else{
+            document.write("Você está reprovado! Estude mais!")
+        }

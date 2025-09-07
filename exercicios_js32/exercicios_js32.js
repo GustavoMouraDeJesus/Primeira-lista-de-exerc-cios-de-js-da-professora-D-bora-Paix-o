@@ -1,0 +1,14 @@
+let aluno = parseFloat(prompt("Qual o seu nome?"))
+        let nota = parseFloat(prompt("Qual a sua nota?"))
+
+        if(nota = 10 && nota >= 8){
+            document.write("Parabéns, você tirou A na prova!")
+        }else if(nota < 8 && nota >= 6){
+            document.write("Você mandou bem, tirou B na prova!")
+        }else if(nota < 6 && nota >= 4){
+            document.write("Você tirou C na prova, ta pra melhora...")
+        }else if(nota < 4 && nota >= 2){
+            document.write("Você precisa melhorar, você tirou D na prova!")
+        }else if(nota < 2  && nota >= 0){
+            document.write("Você precisa de ajuda urgente para resolver essas situações, você tirou E na prova!")
+        }

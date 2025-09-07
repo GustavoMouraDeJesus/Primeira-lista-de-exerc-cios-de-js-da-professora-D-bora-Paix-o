@@ -1,0 +1,26 @@
+
+
+        let num1 = parseInt(prompt("Digite o primeiro número"))
+        let num2 = parseInt(prompt("Digite o segundo número"))
+        let num3 = parseInt(prompt("Digite o terceiro número"))
+    
+
+         if(num1 <= num2 && num2 <= num3){
+        document.write(num1 + "<br>" + num2 + "<br>" + num3);
+    } 
+    else if(num1 <= num3 && num3 <= num2){
+        document.write(num1 + "<br>" + num3 + "<br>" + num2);
+    } 
+    else if(num2 <= num1 && num1 <= num3){
+        document.write(num2 + "<br>" + num1 + "<br>" + num3);
+    } 
+    else if(num2 <= num3 && num3 <= num1){
+        document.write(num2 + "<br>" + num3 + "<br>" + num1);
+    } 
+    else if(num3 <= num1 && num1 <= num2){
+        document.write(num3 + "<br>" + num1 + "<br>" + num2);
+    } 
+    else {
+        document.write(num3 + "<br>" + num2 + "<br>" + num1);
+    }
+        

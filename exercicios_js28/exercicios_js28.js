@@ -1,0 +1,17 @@
+let altura = parseFloat(prompt("Qual a sua altura?"))
+        let peso = parseFloat(prompt("Qual o seu peso?"))
+        let imc = peso / (altura * altura)
+
+        if(imc < 18.5){
+            document.write("Cuidado, você está muito a baixo do seu peso ideal, procure se alimentar mais!")
+        }else if(imc > 18.5 && imc < 24.9){
+            document.write("Você está com um peso ideal para a sua altura.")
+        }else if(imc > 25.0 && imc < 29.9){
+            document.write("Você está um pouco acima do peso, procure uma academia e melhorar sua alimentação.")
+        }else if(imc > 30 && imc < 34.9){
+            document.write("Você está com um grau de obesidade 1, procure ajuda o quanto antes para não piorar sua situação...")
+        }else if(imc > 35 && imc < 39.9){
+            document.write("Você está com um estado grave de obesidade!!!")
+        }else if(imc < 40){
+            document.write("Você corre sérios riscos de vida!")
+        }else(document.write("Alguma informação não estão incorretas, revise e tente novamente."))
